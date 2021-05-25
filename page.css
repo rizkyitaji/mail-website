@@ -1,0 +1,224 @@
+body{
+	font-family: sans-serif;
+	background: url('img/grey.jpg');
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+	width: 1000px;
+	margin: auto;
+	background-color: snow;
+}
+
+header {
+	background: MidnightBlue;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header .img {
+	padding-left: 30px;
+	float: left;
+}
+
+header h1 {
+	padding-left: 200px;
+}
+
+header h2 {
+	padding-left: 200px;
+}
+
+.nav {
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+
+.nav ul {
+	position: absolute;
+	display: inline-block;
+	padding-left: 0px;
+	margin: 0;
+}
+
+.nav li {
+	display: inline-block;
+	float: left;
+	position: relative;
+	background: #0000ff;
+}
+
+.nav li a {
+	display: inline-block;
+	width: 200px;
+	text-decoration: none;
+	line-height: 40px;
+	color: #fff;
+}
+
+.nav li:hover {
+	background: MidnightBlue;
+}
+
+.nav ul ul {
+	display: none;
+}
+
+.nav li:hover ul {
+	display: block;
+}
+
+.nav li li:hover ul {
+	margin-top: -30px;
+	margin-left: 200px;
+	display: block;
+}
+
+.nav li li {
+	text-align: left;
+	padding-left: 5px;
+	width: 195px;
+}
+
+.isi {
+	padding-top: 20px;
+	margin: 30px;
+}
+
+.welcome {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 50px;
+}
+
+.welcome .pict {
+	width: 250px;
+	height: 250px;
+	padding-left: 25px; 
+}
+
+.judul {
+	text-align: center;
+	font-family: Algerian;
+	font-size: 30pt;
+	color: navy;
+}
+
+.form {
+	padding: 10px;
+}
+
+.kode {
+	text-decoration: none;
+	background-color: #20b2aa;
+	color: white;
+	border-radius: 10px;
+	line-height: 50px;
+	display: inline-block;
+	width: 200px;
+}
+
+.kode:hover {
+	background-color: cyan;
+}
+
+.input {
+	background: blue;
+	color: white;
+	border-radius: 10px;
+	line-height: 20px;
+	width: 130px;
+	margin-left: 748px;
+}
+
+.input:hover {
+	background-color: navy;
+}
+
+.tabel {
+	background-color: whitesmoke;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	border: 1px solid #f2f5f7;
+	padding: 10px 30px;
+	text-align: center;
+}
+
+table thead th {
+	background: #35A9DB;
+	color: white;
+	font-weight: normal;
+}
+
+th:hover {
+	background-color: blue;
+}
+
+.td1 {
+	background-color: whitesmoke;
+}
+
+.td1:hover {
+	background-color: lavender;
+}
+
+
+.td:hover {
+	background-color: lavender;
+}
+
+.show tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.tombol {
+	background: lime;
+	color: black;
+	border-radius: 10px;
+	line-height: 20px;
+	width: 130px;
+}
+
+.tombol:hover {
+	background-color: orange
+}
+
+.footer {
+	background-color: slategray;
+	padding: 1px;
+}
+
+.copy {
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+
+.hapus {
+	text-decoration: none;
+	background-color: #20b2aa;
+	color: white;
+	display: block;
+	border-radius: 5px;
+	line-height: 30px;
+}
+
+.hapus:hover {
+	background-color: #00ff7f;
+}
+
+.about {
+	text-align: justify;
+	border-bottom: 1px solid gray;
+}
+
+.topik {
+	text-decoration: underline;
+	font-size: 30pt;
+}

@@ -1,0 +1,90 @@
+body{
+	font-family: sans-serif;
+	background: url('img/grey.jpg');
+	background-size: cover;
+	background-position: 0 -20px;
+	margin: 0;
+	padding: 0;
+}
+
+.tulisan{
+	color: #fff;
+	text-align: center;
+	font-size: 30pt;
+}
+
+.kotak{
+	width: 300px;
+	height: 400px;
+	background: MidnightBlue;
+	margin: 75px auto;
+	padding: 20px 20px;
+	border-radius: 10px;
+	padding-bottom: 30px;
+}
+
+table{
+	font-size: 16pt;
+	margin-bottom: 10px;
+	padding: 10px 10px;
+}
+
+td{
+	margin-bottom: 20px;
+}
+
+.form{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.tombol{
+	background: #FF9900;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 10px;
+}
+
+.tombol:hover {
+	background-color: orange;
+}
+
+.reg {
+	color: white;
+	text-decoration: none;
+}
+
+.link {
+	color: orange;
+}
+
+.link:hover {
+	color: lime;
+}
+
+.pesan {
+	text-align: center;
+	color: white;
+	background-color: red;
+	border-radius: 10px;
+	line-height: 20px;
+}
+
+.sukses {
+	text-align: center;
+	color: black;
+	background-color: lime;
+	border-radius: 10px;
+	line-height: 20px;
+}
+
+.login {
+	text-decoration: none;
+	color: blue;
+}
