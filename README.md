@@ -1,3 +1,2 @@
-# mail-website
-
-Website manajemen surat dengan html, css, dan php native.
+# Mail Website
+> Mail website built with html, css, and php native.
